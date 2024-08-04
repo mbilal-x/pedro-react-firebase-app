@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.Navbar{
+    padding: 1rem;
+    background-color: rgb(117, 117, 224);
+    height: 100px;
+}
+
+a{
+    /* text-decoration: none; */
+}
+
+nav a{
+    color: white;
+    margin: 1rem;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.login-info{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.user-image{
+    margin: 1rem;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.btn{
+    margin: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.btn-dark{
+    background-color: rgb(117, 117, 224);
+    color: white;
+}
+
+.btn-light{
+    background-color: white;
+    color: rgb(117, 117, 224);
+}
+
+.CreatePost form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+.CreatePost form input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    min-width: 15rem;
+    border-radius: 10px;
+    border: 1px solid rgb(117, 117, 224);
+}
+
+.CreatePost form textarea{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    min-width: 15rem;
+    border-radius: 10px;
+    border: 1px solid rgb(117, 117, 224);
+}
